@@ -1,0 +1,24 @@
+footer{
+    padding: 3rem;
+    background: var(--color-primary);
+}
+.social_link{
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer-icons{
+    color: #fff;
+    font-size: 2rem;
+    background: var(--color-bg-variant);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

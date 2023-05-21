@@ -1,0 +1,70 @@
+.container_option{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.option{
+    width: 40%;
+    padding: 2rem;
+    
+}
+.option_card{
+    width: 100%;
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: var(--transition);
+}
+.option_card:hover{
+    background-color: var(--tranparent);
+    border: 1px solid var(--color-light);
+}
+.form_option{
+    width: 60%;
+}
+.Form{
+    width: 100%;
+    padding: 2rem;
+}
+.Form input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border:1px solid var(--color-light);
+    margin-bottom: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: #fff;
+}
+.form-btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: var(--color-bg-variant);
+    border: none;
+    
+}
+.form-btn:hover{
+    background: var(--color-primary);
+    color: var(--color-light);
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .container_option{
+        display: block;
+    }
+    .option{
+        width: 100%;
+        padding: 0;
+    }
+    .form_option{
+        width: 100%;
+    }
+}
