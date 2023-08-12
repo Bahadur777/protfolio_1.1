@@ -79,6 +79,9 @@
     #about{
         margin-top: 1rem;
     }
+    #about h2{
+        margin-top: 1rem;
+    }
     .about_container{
         width: 100%;
         display: block;

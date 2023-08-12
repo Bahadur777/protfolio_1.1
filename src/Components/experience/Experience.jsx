@@ -12,38 +12,38 @@ const Experience = () => {
         <div className="experience-main">
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
-          <h5 className= 'experi-icon'>HTML</h5>
+          <h5 className= 'experi-icon'>C & C++</h5>
+          </article>
+
+          <article className="experience-details">
+          <DiHtml5  className= 'experi-icon'/>
+          <h5>JavaScript</h5>
+          </article>
+
+          <article className="experience-details">
+          <DiHtml5  className= 'experi-icon'/>
+          <h5>Rect & redux Js</h5>
           </article>
 
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
           <h5>HTML</h5>
           </article>
-
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
-          </article>
-
-          <article className="experience-details">
-          <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
+          <h5>CSS</h5>
           </article>
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
+          <h5>Figma</h5>
           </article>
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
+          <h5>PSD</h5>
           </article>
           <article className="experience-details">
           <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
-          </article>
-          <article className="experience-details">
-          <DiHtml5  className= 'experi-icon'/>
-          <h5>HTML</h5>
+          <h5>XD</h5>
           </article>
         </div>
       </div>

@@ -68,10 +68,11 @@ header{
 @media only screen and (max-width: 1020px) {
     .me{
         height: 30rem;
+        margin-top: 1px;
     }
-    header{
+    /* header{
         height: 70vh;
-    }
+    } */
 }
 @media only screen and (max-width: 600px){
     .social-icons{
@@ -81,7 +82,8 @@ header{
         height: 100vh;
     }
     .me{
-        left: calc(50% - 8rem);
+        margin-top: 1px;
+       
     }
     .scroll_down{
         display: none;
